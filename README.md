@@ -2,6 +2,8 @@
 
 This Flutter app demonstrates how to use `RawKeyboardListener` to handle keyboard input across desktop, web, and mobile (with hardware keyboards).
 
+## Presentation available as ppt file in the Repo
+
 ### Run
 
 1. Change into the project directory:
