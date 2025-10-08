@@ -85,11 +85,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       mainAxisSize: MainAxisSize.min,
                       children: <Widget>[
                         Icon(_focusNode.hasFocus ? Icons.keyboard : Icons.keyboard_outlined),
-                        const SizedBox(width: 8),
-                        Text(
-                          _focusNode.hasFocus ? 'Focused - start typing' : 'Click to focus',
-                          style: Theme.of(context).textTheme.titleMedium,
-                        ),
                       ],
                     ),
                     const SizedBox(height: 16),
